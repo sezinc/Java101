@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Tekrar Sayıları");
 
         for (int i = 0; i < dizi.length; i++) {
-            if (!isSame(dizi2, dizi[i])) {//eğer dizi 'nin i. değeri dizi2 içinde yoksa yani önceden tekraları sayıldıysa
+            if (!isSame(dizi2, dizi[i])) {
                 System.out.println(dizi[i] + " sayısı " + countEquals(dizi[i]) + " kere tekrar edildi. ");
                 if (countEquals(dizi[i]) > 0) {
                     dizi2[i] = dizi[i];//eğer saydıysan bir kere dizi2 ye eklen
